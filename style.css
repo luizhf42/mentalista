@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    border-top: 5px solid #40C4FF;
+    box-sizing: border-box;
+}
+
+.page-logo {
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: #40C4FF;
+    padding: 5px 7px;
+    border-radius: 0 0 3px 3px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    background-color: #3B1D3A;
+    width: 375px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: rgba(253, 181, 227, 0.4) 5px 5px, rgba(247, 104, 195, 0.3) 10px 10px;
+}
+
+.container-header {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    height: auto;
+    opacity: 70%;
+}
+
+.title {
+    font-size: 2.1em;
+    margin: 0;
+    transform: translateY(-125px);
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6)
+}
+
+.subtitle {
+    font-size: 1.2em;
+    transform: translateY(-25px);
+    margin: 0;
+    font-weight: 600;
+    color: #fff;
+}
+
+input {
+    margin-bottom: 5px;
+    padding: 6px;
+    border-radius: 5px;
+    width: 30%;
+    border-top: 2px solid rgba(41, 15, 31, 0.713);
+    border-left: 2px solid rgba(41, 15, 31, 0.713);
+    border-bottom: 2px solid rgba(255, 127, 208, 0.679);
+    border-right: 2px solid rgba(255, 127, 208, 0.679);
+    transform: translateY(-10px);
+}
+
+button {
+    margin: 0 0 1em;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #ffffff;
+    border-top: 2px solid rgba(41, 15, 31, 0.713);
+    border-left: 2px solid rgba(41, 15, 31, 0.713);
+    border-bottom: 2px solid rgba(255, 127, 208, 0.679);
+    border-right: 2px solid rgba(255, 127, 208, 0.679);
+}
+
+button:active {
+    border-bottom: 2px solid rgba(41, 15, 31, 0.713);
+    border-right: 2px solid rgba(41, 15, 31, 0.713);
+    border-top: 2px solid rgba(255, 127, 208, 0.679);
+    border-left: 2px solid rgba(255, 127, 208, 0.679);
+}
+
+#tentativas {
+    font-size: .8em;
+    background-color: #fff;
+    text-align: center;
+    color: #000000;
+    margin: 0 0 1em;
+    padding: 5px;
+    border: 2px solid white;
+}
+
+#resultado {
+    margin: 0 0 .8em;
+}
+#resultado, #resposta {
+    display: none;
+    padding: 0 20px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+}
+
+#resposta {
+    margin: 0 0 1em;
+}
+

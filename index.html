@@ -1,0 +1,33 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Imersão Dev - Aula 03</title>
+</head>
+
+<body>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page-logo" alt="">
+
+    <a href="https://alura.com.br/" target="_blank"><img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="Logo da Alura" class="alura-logo"></a>
+    
+    <div class="container">
+        <img src="https://img.wattpad.com/0fc92a017212e74276cf1129ed96241ea9dad9de/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f41534a77512d51666d74335557773d3d2d313030363230363930302e313636633731663330653863323731643633343432393939333138342e6a7067" alt="Ilustração com o personagem Gen Asagiri" class="container-header">
+
+        <h1 class="title">Mentalista</h1>
+
+        <p class="subtitle">Digite um número de 0 a 100:</p>
+
+        <input type="number" id="chute" min="0" max="100">
+        <p id="tentativas">Tentativas restantes: 4</p>
+        <button type="submit" onclick="chutar()">Chutar</button>
+        
+        <p class="resultado" id="resultado"></p>
+        <p id="resposta"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
