@@ -1,4 +1,4 @@
-var tentativas = 4;
+var tentativas = 5;
 var acertou = false;
 
 function chutar() {
